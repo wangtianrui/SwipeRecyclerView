@@ -202,7 +202,7 @@ OnItemMoveListener onItemMoveListener = new OnItemMoveListener() {
 };
 ```
 
-**使用`Grid`形式的`RecyclerView`拖拽`Item`时特别注意，因为`Grid`的`Item`可以跨`position`拖拽，所以`onItemMove()`方法体有所不同：**
+**使用`Grid`形式`RecyclerView`拖拽`Item`时特别注意，因为`Grid`的`Item`可以跨`position`拖拽，所以`onItemMove()`方法体有所不同：**
 ```java
 @Override
 public boolean onItemMove(int fromPosition, int toPosition) {
